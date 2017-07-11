@@ -45,7 +45,7 @@ case "$option" in
     --conf-path=*)                   NGX_CONF_PATH="$value"     ;;
 
     *)
-            echo "$0: error: invalid option \"$option\""
+        echo "$0: error: invalid option \"$option\""
         exit 1
     ;;
 esac
